@@ -18,13 +18,16 @@ public class ToDoList {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long taskId;
 
-   @Column(name = "first task", nullable = false)
+   @Column(name = "Task", nullable = false)
     private  String firstTask;
 
-    @Column(name = "second task", nullable = false)
+    @Column(name = "description", nullable = false)
     private  String secondTask;
 
-    @Column(name = "third task", nullable = false)
+    @Column(name = "Due date", nullable = false)
     private  String thirdTask;
+
+
+
 
 }
